@@ -119,17 +119,22 @@ Using `uv`, installation and environment management are reproducible and simple.
 
 ## Quickstart
 
-### 1) Run the API service locally with uv
+### 1) Create environment & install dependencies
+```bash
+uv venv
+uv sync
+
+### 2) Run the API service locally with uv
 **uv run python predict.py**
 The service will run on:
 http://localhost:8080/docs
 
-### 2) Test the running service
+### 3) Test the running service
 
 In a separate terminal:
 **uv run python test.py**
 
-### 3) Docker
+### 4) Docker
 Build the image
 **docker build -t value-prediction .**
 
@@ -141,5 +146,5 @@ http://localhost:8080
 Again, it can be tested by running **uv run python test.py**
 
 
-### 4) Deployment
-The Docker image can be deployed to the cloud (e.g., AWS) by pushing it to a container registry and running it on a managed container service.
+### 5) Deployment
+The docker image can be deployed to the cloud (e.g., AWS) by pushing it to a container registry and running it on a managed container service.
