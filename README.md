@@ -119,12 +119,12 @@ Using `uv`, installation and environment management are reproducible and simple.
 
 ## Quickstart
 
-### 1) Create environment & install dependencies**
-```bash```
+### 1) Create environment & install dependencies
+``bash``
 uv venv
 uv sync
 
-### 2) Run the API service locally with uv**
+### 2) Run the API service locally with uv
 **uv run python predict.py**
 The service will run on:
 http://localhost:8080/docs
