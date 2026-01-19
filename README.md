@@ -117,9 +117,9 @@ Using `uv`, installation and environment management are reproducible and simple.
 
 ---
 
-## Quickstart (Local with `uv`)
+## Quickstart
 
-### 1) Run the API service
+### 1) Run the API service locally with uv
 **uv run python predict.py**
 The service will run on:
 http://localhost:8080/docs
