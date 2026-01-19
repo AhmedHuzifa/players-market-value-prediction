@@ -130,10 +130,10 @@ In a separate terminal:
 **uv run python test.py**
 
 ### 3) Docker
-- Build the image
+Build the image
 **docker build -t value-prediction .**
 
--Run the container
+Run the container
 **docker run -it --rm -p 8080:8080 value-prediction**
 The API will be available at:
 http://localhost:8080
